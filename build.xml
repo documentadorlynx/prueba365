@@ -1,0 +1,9 @@
+<project name="Proyecto">
+       <target name="init">
+               <mkdir dir="classes" />
+	       <mkdir dir="test-results" />
+       </target>
+       <target name="compile" depends="init">
+               <javac destdir="./classes" srcdir="."/>
+       </target>
+</project>
